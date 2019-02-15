@@ -1,0 +1,99 @@
+/* Limpar formataçoes padrao ,de cada browser usando asterisco */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #fff;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+}
+
+/* IDS */
+#cabeçalho{
+	background: #f3f3f3;
+	border-bottom: 1px solid #d8d8d8;
+	height: 80px;
+	width: 100%;
+}
+
+#area{
+	width: 720px;
+	margin:0 auto;
+}
+
+#logo{
+	float: left;
+	
+}
+
+#menu{
+	float: right;
+	padding: 10px 0;
+}
+
+#area-principal{
+	margin: 20px auto;
+	background: #fff;
+	border-bottom: 1px solid #d8d8d8;
+	width: 700px; 
+}
+
+#buscar{
+	padding: 10px;
+	margin-bottom: 10px;
+	
+
+}
+
+
+#listafilme{
+	margin: 20px auto;
+	background: #f3f3f3;
+	border-bottom: 1px solid #d8d8d8;
+	height: auto;
+	width: 1000px ; 
+	border-radius: 20px; /*deixa a borda arredondada*/
+	
+}
+
+
+/*Classes*/
+
+.verde{
+	color: #b9c941;
+}
+
+.titulo{
+	border:10px solid red;
+    margin: 0px;
+}
+
+
+
+
+
+
+
+/*LINKS*/
+a{
+	text-decoration: none;
+	padding: 5px;
+
+}
+a:link{
+	color: #838383
+}
+
+a:visited{
+	color: #838383
+}
+
+a:hover{
+	color: #b9c941
+
+}
+
+a:active{
+	color: black;
+}
